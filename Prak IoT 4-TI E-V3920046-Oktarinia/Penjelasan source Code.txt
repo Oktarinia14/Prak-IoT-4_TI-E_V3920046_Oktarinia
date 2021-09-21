@@ -1,0 +1,17 @@
+Penjelasan Source Code :
+
+- Pertama kita import library gpio dan time
+- kemudian ada def main() --> Def berfungsi sebagai kumpulan perintah atau baris kode yang dikelompokkan 
+menjadi satu kesatuan untuk kemudian bisa dipanggil atau digunakan berkalikali
+- Fungsi def ini akan diikuti parameter yang ada di dalam kurung
+- kemudian ada if else/kondisi pada motion_sensor apabila terdeteksi atau tidak :
+	jika motion sensor == HIGHT (menyala) atau terdeteksi
+	maka akan print/menampilkan motion detected, lights on, open garage
+	artinya 2 benda tersebut dalam posisi ON/terbuka/menyala dengan delay (100s)
+
+	Jika pada kondisi lainnya atau tidak terdeteksi maka akan print 
+	/menampilkan motion not detected, lights off, closed garage
+	dengan delay 100s
+
+- if _name_ == "_main_": --> menampilkkan running
+	main()
